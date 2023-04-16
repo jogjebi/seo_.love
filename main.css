@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+  margin:0;   /* 마진 리셋 */
+  padding:0;   /* 패딩 리셋 */
+  box-sizing: border-box;   /* 박스 영역은 테두리까지 */ 
+}
+a {
+  text-decoration:none;  /* 텍스트 링크 밑줄 없애기 */ 
+}
+ul {
+  list-style: none;
+}
+
+#container {
+  margin:0 auto;  /* 화면 중앙에 배치 */
+  width:1600px;    /* 너비 */    
+  background-color: #ffffff;
+}
+
+
+
+/* 로고 */
+#logo{ 
+  float:left;   /* 왼쪽으로 플로팅 */ 
+  width:250px;   /*  너비 */ 
+  height:100px;   /* 높이 */
+  line-height:100px;  /* 세로로 중간에 맞춤 - 줄간격을 높이 값과 같게 */
+  padding-left:40px;  /* 왼쪽에 여백 */
+}
+#logo h1 {
+  font-family:'Merienda', cursive;
+  font-weight:700;
+  font-size:50px;   /* 글자 크기 */
+  color:#000000;   /* 글자 색*/
+  text-shadow:0 -1px 0 #222;  /* 그림자 색 */
+}
+
+header{
+  width:100%;    /*  너비 */
+  height:100px;   /* 높이 */ 
+  background-color:rgb(255, 255, 255);  
+  border-bottom: 2px solid #000000;
+}
+
+
+
+
+ /*내비게이션 */
+
+
+ nav{  
+  float:left;   /* 오른쪽으로 플로팅 */
+  width:1000px;   /*   너비 */  
+  height:100px;   /* 메뉴 영역 높이 */  
+  padding-top:20px;  /* 메뉴를 아래로 내리기 위해 */  
+}
+#topMenu {  
+  height:30px; 
+}
+#topMenu > li {
+  float:left;  /* 메뉴 항목을 왼쪽으로 플로팅 */ 
+  position: relative;  
+}
+#topMenu > li > a{
+  display:block;  /* 링크 텍스트는 블록으로 */ 
+  font-size:1.1em;
+  color:#000000;  /* 글자 색 */
+  font-weight:600;  /* 글자 굵기 */
+  padding:20px 60px;  /* 패딩 */ 
+}
+#topMenu > li > a:hover {
+  color:#2107527a;
+  text-shadow:0 -1px #000000;
+}
+
+
+/*서브메뉴*/
+
+#sub-menu {
+  position: absolute;
+  background-color:rgb(253, 254, 255);  
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease-in;
+  
+}
+
+#sub-menu > li {
+  padding: 20px 40px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+#sub-menu > li >  a {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight:600;
+  font-size:1.1em;
+  text-decoration: none;
+}
+
+#topMenu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+  text-decoration: underline;
+ }
+
+
+/*서브 끝*/
+
+/*검색창*/
+
+#search{
+  padding-top:40px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.search {
+  position: relative;
+  width: 300px;
+}
+
+input {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+
+#button{
+  float:right;
+  border-radius: 20px;
+  padding-right:120px;
+  padding-top:10px;
+  position: relative;
+
+}
+
+
+/*로그인*/
+
+#login{
+  display:block;  /* 링크 텍스트는 블록으로 */ 
+  list-style-type: none;
+  list-style: none;
+}
+
+#login > li {
+  float:left;  /* 메뉴 항목을 왼쪽으로 플로팅 */ 
+  position: relative;  
+}
+
+#login > li > a{
+  font-size:0.5em;
+  color:#000000;  /* 글자 색 */
+  font-weight:10;  /* 글자 굵기 */
+  padding:20px 20px;
+
+}
+
+/*본 문 */
+
+
+content{
+  margin:0 auto;  /* 화면 중앙에 배치 */
+  width:1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************
+/*   푸터 영역    */
+/******************/
+
+footer{   
+  width:1600px;   /* 너비 */
+  height:100px;  /* 높이 */
+  border-top:2px solid #000000;
+}
+#bottomMenu{
+  width:100%;
+  height:20px;
+  margin-left:60px;
+}
+#bottomMenu ul {
+  margin-top:15px;  
+}
+#bottomMenu ul li{
+  float:left;  /* 가로로 배치 */ 
+  padding:5px 20px;
+  border-right:1px solid #ddd;   /* 항목 오른쪽에 테두리 */ 
+}
+#bottomMenu ul li:last-child{
+  border:none;  /* 마지막 항목에는 오른쪽 테두리 없음 */  
+}
+#bottomMenu ul li a, #bottomMenu ul li a:visited {  
+  font-size:15px;  /* 글자 크기 */ 
+  color:#666;   /* 글자 색 */ 
+} 
