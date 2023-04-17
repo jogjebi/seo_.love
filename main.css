@@ -22,7 +22,6 @@ ul {
 
 /* 로고 */
 #logo{ 
-  position: relative;
   float:left;   /* 왼쪽으로 플로팅 */ 
   width:250px;   /*  너비 */ 
   height:100px;   /* 높이 */
@@ -30,7 +29,6 @@ ul {
   padding-left:40px;  /* 왼쪽에 여백 */
 }
 #logo h1 {
-  position: absolute; /*위치 고정*/
   font-family:'Merienda', cursive;
   font-weight:700;
   font-size:50px;   /* 글자 크기 */
@@ -39,13 +37,11 @@ ul {
 }
 
 header{
-  position: relative;
-  width:100%;    /*  너비 */
-  height:100px;   /* 높이 */ 
+  display:flex;
+  width: 1800px;
+  margin:auto;
   background-color:rgb(255, 255, 255);  
   border-bottom: 2px solid #000000;
-  justify-content: center;
-  display: flex;
 }
 
 
@@ -61,6 +57,7 @@ header{
   height:100px;   /* 메뉴 영역 높이 */  
   padding-top:20px;  /* 메뉴를 아래로 내리기 위해 */ 
 
+  justify-content: flex-end;
 
 }
 #topMenu {  
