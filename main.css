@@ -162,7 +162,10 @@ input {
   color:#000000;  /* 글자 색 */
   font-weight:10;  /* 글자 굵기 */
   padding:20px 20px;
+}
 
+#search{
+  padding-bottom: 40px;
 }
 
 /*본 문 */
@@ -173,9 +176,14 @@ input {
   height:600px;
 }
 
+#main2 > img{
+  width:600px;
+  padding-top:60px;
+  height:600px;
+}
+
 
 #content{
-
   width:1200px;
   height: 1600px;
 }
@@ -212,6 +220,8 @@ article > p > a:hover{
   color:rgb(97, 204, 253);
 }
 
+
+
 /******************
 /*   푸터 영역    */
 /******************/
@@ -241,3 +251,32 @@ footer{
   font-size:15px;  /* 글자 크기 */ 
   color:#666;   /* 글자 색 */ 
 } 
+
+
+/*모바일*/
+
+@media (min-width: 640px) {
+  .header { font-size: 12px; }
+}
+
+@media (min-width: 768px) {
+  .header { font-size: 16px; }
+}
+
+@media (min-width: 1024px) {
+  .header { font-size: 18px; }
+}
+
+@media (max-width: 1023px) {
+  .header { font-size: 16px; }
+}
+
+@media (min-width: 767px) {
+  .header { font-size: 14px; }
+}
+
+@media (min-width: 639px) {
+  .header { font-size: 12px; }
+}
+
+
