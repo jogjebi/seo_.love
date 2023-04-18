@@ -225,6 +225,88 @@ article :last-child{
 }
 
 
+/*index2*/
+#logo1 > img{
+  display : block;
+  margin : auto;
+}
+
+#sch1 > p{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#sch1 > pre{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#sch1 > iframe{
+  display:block;
+  margin:auto; 
+}
+
+
+#sch1 > img{
+width: 1200px;
+height: 400px;
+display : block;
+margin : auto;
+}
+
+#sch2 > img{
+  width: 1200px;
+  height: 700px;
+  display : block;
+  margin : auto;
+}
+
+/*index3*/
+
+#sch3 > img{
+  width: 1200px;
+  height: 600px;
+  display : block;
+  margin : auto;
+}
+
+#sch3 > p{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#sch3 > pre{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+
+#logo2 > img{
+  display : block;
+  margin : auto;
+}
+
+#sch3a > img{
+  width: 1100px;
+  height: 700px;
+  display : block;
+  margin : auto;
+}
+
+#sch3b > img{
+  width: 600px;
+  height: 800px;
+  display : block;
+  margin : auto;
+}
+
+#sch3c > img{
+  width: 600px;
+  height: 800px;
+  display : block;
+  margin : auto;
+}
+
 /******************
 /*   푸터 영역    */
 /******************/
