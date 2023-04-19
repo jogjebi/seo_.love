@@ -18,6 +18,17 @@ ul {
   background-color: #ffffff;
 }
 
+@media (min-width: 640px) {
+  .header { font-size: 12px; }
+}
+
+@media (min-width: 768px) {
+  .header { font-size: 16px; }
+}
+
+@media (min-width: 1024px) {
+  .header { font-size: 18px; }
+}
 
 
 /* 로고 */
@@ -38,7 +49,7 @@ ul {
 
 header{
   display:flex;
-  width: 1800px;
+  width: 1600px;
   margin:auto;
   background-color:rgb(255, 255, 255);  
   border-bottom: 2px solid #000000;
@@ -261,6 +272,13 @@ margin : auto;
   margin : auto;
 }
 
+#sch2a > img{
+  width: 900px;
+  height: 500px;
+  display : block;
+  margin : auto;
+}
+
 /*index3*/
 
 #sch3 > img{
@@ -307,6 +325,45 @@ margin : auto;
   margin : auto;
 }
 
+/*index4*/
+#sch4 > img{
+  width: 1100px;
+  height: 550px;
+  display : block;
+  margin : auto;
+}
+
+#sch4 > p{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+#sch4 > pre{
+  font-size: 1.3rem;
+  text-align: center;
+  margin : auto;
+}
+
+#sch4a > img{
+  width:1000px;
+  height: 400px;
+  display : block;
+  margin : auto;
+}
+
+#sch4b > img{
+  width:1000px;
+  height: 500px;
+  display : block;
+  margin : auto;
+}
+
+#logo3 > img{
+  display : block;
+  margin : auto;
+}
+
+
 /******************
 /*   푸터 영역    */
 /******************/
@@ -336,32 +393,5 @@ footer{
   font-size:15px;  /* 글자 크기 */ 
   color:#666;   /* 글자 색 */ 
 } 
-
-
-/*모바일*/
-
-@media (min-width: 640px) {
-  .header { font-size: 12px; }
-}
-
-@media (min-width: 768px) {
-  .header { font-size: 16px; }
-}
-
-@media (min-width: 1024px) {
-  .header { font-size: 18px; }
-}
-
-@media (max-width: 1023px) {
-  .header { font-size: 16px; }
-}
-
-@media (min-width: 767px) {
-  .header { font-size: 14px; }
-}
-
-@media (min-width: 639px) {
-  .header { font-size: 12px; }
-}
 
 
