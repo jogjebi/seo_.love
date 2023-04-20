@@ -325,6 +325,27 @@ margin : auto;
   margin : auto;
 }
 
+#sch3d > img{
+  width:1000px;
+  height:550px;
+  display : block;
+  margin : auto;
+}
+
+#sch3e > img{
+  width:1000px;
+  height:700px;
+  display : block;
+  margin : auto;
+}
+
+#sch3f > img{
+  width:1000px;
+  height:550px;
+  display : block;
+  margin : auto;
+}
+
 /*index4*/
 #sch4 > img{
   width: 1100px;
@@ -393,5 +414,4 @@ footer{
   font-size:15px;  /* 글자 크기 */ 
   color:#666;   /* 글자 색 */ 
 } 
-
 
