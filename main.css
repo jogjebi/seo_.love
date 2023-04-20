@@ -83,7 +83,7 @@ header{
   font-size:1.1em;
   color:#000000;  /* 글자 색 */
   font-weight:600;  /* 글자 굵기 */
-  padding:20px 60px;  /* 패딩 */ 
+  padding:20px 70px;  /* 패딩 */ 
 }
 #topMenu > li > a:hover {
   color:#2107527a;
@@ -160,7 +160,7 @@ input {
   list-style-type: none;
   list-style: none;
   padding-top:5px;
-  padding-right: 300px;
+  padding-right: 100px;
 }
 
 #login > li {
@@ -384,6 +384,11 @@ margin : auto;
   margin : auto;
 }
 
+/*Index5*/
+#sch5 > p{
+  font-size: 1.3rem;
+  text-align: center;
+}
 
 /******************
 /*   푸터 영역    */
@@ -414,4 +419,10 @@ footer{
   font-size:15px;  /* 글자 크기 */ 
   color:#666;   /* 글자 색 */ 
 } 
+
+
+/*모바일*/
+
+
+
 
